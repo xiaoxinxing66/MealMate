@@ -8,7 +8,7 @@
         <artifactId>MealMate-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
+    <groupId>org.example</groupId>
     <artifactId>ms-oauth2-server</artifactId>
 
     <properties>
@@ -54,7 +54,7 @@
         </dependency>
         <!-- commons 公共项目 -->
         <dependency>
-            <groupId>com.sivan</groupId>
+            <groupId>org.example</groupId>
             <artifactId>commons</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
