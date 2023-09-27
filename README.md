@@ -3,9 +3,7 @@
 MealMate是一个基于Spring Cloud微服务架构设计的应用程序，旨在让用户能够分享美食、与他人互动并探索附近的美食场所。该项目只提供了功能接口，你应该根据下面的接口测试指南来测试本项目。
 
 ## 功能特点
-
-![image-20230927165425512](C:\Users\不知名网友鑫\AppData\Roaming\Typora\typora-user-images\image-20230927165425512.png)
-
+![image](https://github.com/xiaoxinxing66/MealMate/assets/93857716/be493b16-6311-4c29-97e0-4fc9c68548c1)
 1. **用户模块：**
 
 实现用户注册，结合Oauth2 + Spring Security实现用户单点登录，SSO功能。
