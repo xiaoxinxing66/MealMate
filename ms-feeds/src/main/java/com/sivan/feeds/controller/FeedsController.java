@@ -43,6 +43,7 @@ public class FeedsController {
      */
     @DeleteMapping("{id}")
     public ResultInfo delete(@PathVariable Integer id, String access_token) {
+        // 删除Feed
         feedsService.delete(id, access_token);
         return ResultInfoUtil.buildSuccess(request.getServletPath(), "删除成功");
     }
@@ -54,6 +55,7 @@ public class FeedsController {
     @PostMapping("updateFollowingFeeds/{followingDinerId}")
     public ResultInfo addFollowingFeeds(@PathVariable Integer followingDinerId,
                                         String access_token, @RequestParam int type) {
+        // 增加Feed
         feedsService.addFollowingFeed(followingDinerId, access_token, type);
         return ResultInfoUtil.buildSuccess(request.getServletPath(), "操作成功");
     }
